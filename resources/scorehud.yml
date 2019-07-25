@@ -6,10 +6,10 @@ scorehud-version: 1
 # Changing titles of the scoreboard.
 # Can be of any number.
 server-names:
-- "§l§aServer §dName"
-- "§l§bServer §cName"
-- "§l§cServer §bName"
-- "§l§dServer §aName"
+- "§l§aSans §dS3"
+- "§l§bSans §cS3"
+- "§l§cSans §bS3"
+- "§l§dSans §aS3"
 
 # Note: You can find links to the required/supported plugins via the README.md.
 # IMPORTANT NOTE: You can only set a maximum of 15 lines and no more.
@@ -47,6 +47,7 @@ scoreboards:
     lines:
     - " §dName: §5{name}"
     - " §bOnline: §a{online} §c/ §d{max_online}"
+    - " §cmoney: §1{money}
   "world 2":
     lines:
     - " §dTPS: §5{tps}"
